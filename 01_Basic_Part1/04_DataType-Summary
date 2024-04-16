@@ -1,0 +1,39 @@
+// pritmitive and nonpritmitive(reference) classified on the basis of how data is stored and accessed
+
+// primitive  (value is copied when we call them, so that original value remains same)
+// 7 types: string, number, bigint, null, undefined, symbol, boolean
+
+const id1 = Symbol('123')
+const id2 = Symbol('123')
+console.log(id1 === id2);   // both contain same value but they are still different
+
+const bigNumber = 12345678912341234n        // we have to write n at last to declare it as bigints
+
+//non primitive or reference type: we can access original value/these value through reference
+// array, object, function
+
+// we didn't define the type of variable during value assigination, and data type is declared during executation, so this kinds of language are dynamic
+// In those language, where we have to define the datatype during value declaring, these languages are static.
+
+// symbols: make the value unique
+
+
+// ++++++++++++++++++++++++++++++++++++++++++
+
+// stack(copy) memory is used for primitive data, and heap(reference) memory is used for non-primitive memory
+
+//example of stack memory
+
+let user1 = "hacker"
+let user2 = user1;
+user2 = "prakash"
+console.log(user1, user2);  //original value of user1 is not changed
+
+//exanmple of heap memory
+let person1 = {
+    email: "hacker@google.com"
+}
+let person2 = person1       // giving reference of value
+person2.email = "prakash@google.com"
+console.log(person1.email);
+console.log(person2.email);       // here when we change the value of person2, person1 is also changing
