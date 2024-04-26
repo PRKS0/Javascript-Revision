@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Changer</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .container{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            justify-content: center;
+        }
+        .btn{
+            height: 100px;
+            width: 100px;
+        }
+        #blue{
+            background-color: blue;
+        }
+        #yellow{
+            background-color: yellow;
+        }
+        #red{
+            background-color: red;
+        }
+        #green{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button class="btn" id="blue"></button> 
+        <button class="btn" id="yellow"></button> 
+        <button class="btn" id="red"></button> 
+        <button class="btn" id="green"></button> 
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
