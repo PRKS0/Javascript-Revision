@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+        }
+        body{
+            background-color: #212121;
+            color: #d8d0d0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100vw;
+        }
+        form input{
+            width: 50px;
+        }
+        button:active{
+            background-color: rgb(57, 57, 129);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>GUESS THE NUMBER</h2>
+        <form action="">
+            <label for="num">Guess number:</label>
+            <input type="number" name="getNumber" id="num">
+            <button type="submit">Guess</button>
+        </form>
+        <div class="show">
+            <div id="result"></div>
+            <div id="attemptRem">Total attempts remaining: <span id="remNum">10</span></div>
+            <div id="attempts"></div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

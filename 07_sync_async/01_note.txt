@@ -1,0 +1,13 @@
+1. blocking code(synchronous )
+    read code line wise line, can not jump to next code before completely executing it(single threaded)
+
+2. non-blocking code(asynchronous)
+    will continue executing code and also do the task like fetch(), reading/writing, file, network task, setTimeout, eventListener 
+
+JS alone is asynchronous but when V8 engine is combine with web engine(web api), then it can handle async task through event loop and callback queue of main thread, . 
+
+- asynchronous code ---> resiter callback(generate a queue for async tasks) -----> 
+- fetch api also works on same process but it has higher priority
+
+
+- setTimeout/interval is function/method part of web api(not core js). so it make different thread
