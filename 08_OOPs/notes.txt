@@ -1,0 +1,4 @@
+javascript is more prototype based lang. Yes, it has classes but it syntatic sugar only so that OOP oriented programmer do not feel something missin gout.
+
+difference between property and method:
+let's suppose we have different key with their value in object. same object has a function which perform xyz task. those keys are properties and that function is method. property give the define value, data from object(all variables are made from object) whereas method gives the returned data of func inside that object.
