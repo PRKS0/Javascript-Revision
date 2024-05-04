@@ -2,3 +2,5 @@ javascript is more prototype based lang. Yes, it has classes but it syntatic sug
 
 difference between property and method:
 let's suppose we have different key with their value in object. same object has a function which perform xyz task. those keys are properties and that function is method. property give the define value, data from object(all variables are made from object) whereas method gives the returned data of func inside that object.
+
+prototype: array, function, string all go through object. When we have user define method/function in object than it will be available for all array, function and string. But on defining method for individual array or funciton or string, it will be not avaibale to object.

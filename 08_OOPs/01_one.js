@@ -32,4 +32,40 @@ userData.prototype.displayInfo = function(){
 // console.log(user2);
 
 
-user1.displayInfo()
+// user1.displayInfo()
+
+// about __proto__ . we can inherit the property of one object to other
+//  and this is called prototypal inheritance but this is old method(outdated0)
+const nation = {
+    language: "nepali",
+    nationality: "nepali"
+}
+
+const province = {
+    minister: "someone",
+    project: "hydropower"
+}
+
+const local = {
+    population: 13000,
+    __proto__: province
+}
+
+// console.log(local.minister);
+
+// modern syntax
+Object.setPrototypeOf(province, nation)         // province will consume property of nation
+// console.log(province.language);     
+
+
+
+// creating a method which will applied to all the string
+const userName = "prakash      "
+console.log(userName.length);
+
+String.prototype.realLength = function (){
+    console.log(`actual lenght is: ${this.trim().length}`);
+}
+
+userName.realLength()
+"    hacker          ".realLength()
