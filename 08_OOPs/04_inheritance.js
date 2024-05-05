@@ -24,4 +24,8 @@ class admin extends user{
 const admin1 = new admin("victor", 20, true, "hacker", "admin@123.com")
 console.log(admin1.encrypter());
 
-// where we do not have to use call, and provide this. all things happens with super()
+// where we do not have to use call, and provide "this". all things happens with super()
+
+
+// instanceof
+console.log();
