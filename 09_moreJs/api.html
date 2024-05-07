@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API</title>
+    <style>
+        body {
+            background-color: #212121;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="text" id="city">
+    <button>search</button>
+    
+</body>
+<script>
+    document.querySelector("button").addEventListener("click", function () {
+        const city = document.querySelector("#city").value
+
+        const fetchUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=9fed4705e6da845a059fcdd29b49019f&units=metric`
+
+        const userData = fetch(fetchUrl)
+        userData.then(function (data) {
+            return data.json()
+        })
+            .then(function (data) {
+                // console.log(data);
+                console.log(`location: ${data.name}`);
+                console.log(`temp: ${data.main.temp}`);
+                console.log(`humidity: ${data.main.humidity}`);
+            })
+            .catch(function (err) {
+                console.log(err);
+                // console.log();
+            })
+    })
+</script>
+
+</html>
