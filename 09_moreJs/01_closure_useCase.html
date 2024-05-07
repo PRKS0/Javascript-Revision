@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Closure</title>
+</head>
+<body>
+    <button id="red">red</button>
+    <button id="blue">blue</button>
+</body>
+<script>
+
+    // let's change the color of bg with button click
+
+    // function colorChanger(color){
+    //     document.body.style.backgroundColor = color
+    // }
+    // document.querySelector("#red").addEventListener("click", colorChanger("red"))
+    // document.querySelector("blue").addEventListener("click", colorChanger("blue"))
+    // this is not working because, in event listener should only give the reference of func. In this scenario, we have to give argument and also should give reference of func. but when we are passing argument, func is also executing
+    // function is executing and changing color without click of button
+    
+    
+    // so here is the use case of closure
+    function colorChanger(color){
+        return function(){
+            document.body.style.backgroundColor = color
+        }
+    } 
+    document.querySelector("#red").addEventListener("click", colorChanger("red"))
+    document.querySelector("#blue").addEventListener("click", colorChanger("blue"))
+
+    // so here, colorChnager() func is returning the funciton. and event listener also need func not it's execution.
+
+</script>
+</html>
