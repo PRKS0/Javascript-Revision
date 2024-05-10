@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu Sans", sans-serif;
+}
+
+body {
+    /* Uncomment the color you want to use for the night theme */
+    /* background-color: #001f3f;  */
+    /* background-color: #191970; 
+    background-color: #2F4F4F; 
+    background-color: #000000; 
+    background-color: #4B0082; 
+    background-color: #36454F; 
+    background-color: #1C1C1E; 
+    background-color: #0A0A0A; 
+     */
+    /* Example: Uncomment the line below for Deep Navy Blue */
+    background-color: #2f4862;
+    /* background: linear-gradient(to bottom, #001f3f, #092b4e); */
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#search{
+    height: 40px;
+    width: 25vw;
+    border-radius: 7px;
+    padding: 10px;
+    border: none;
+}
+.container {
+    height: 60vh;
+    width: 25vw;
+    background-color: #b2f7ef;
+    border-radius: 7px;
+}
+
+.today {
+    height: 65%;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.temp {
+    font-size: 44px;
+    font-weight: 600;
+    margin-top: 20px;
+    color: #001f3f;
+}
+.sub-today{
+    display: flex;
+    justify-content: space-between;
+}
+.time{
+    font-size: 20px !important;
+    margin-bottom: 10px ;
+    font-weight: 600;
+}
+.subMeasure{
+    font-size: 14px;
+    font-weight: 600;
+    color: #627080;
+}
+.circle{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: rgb(233, 233, 77);
+    position: absolute;
+    top: 26vh;
+    left: 55vw;
+    box-shadow: 0px 0px 50px 15px rgba(233, 233, 77, 1);
+}
+
+.future {
+    height: 35%;
+    background-color: #001f3f;
+}
+.day{
+    height: 33.33%;
+    color: #f2f2f2;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+/* if night */
+/* #search{
+    height: 40px;
+    width: 25vw;
+    border-radius: 7px;
+    padding: 10px;
+    border: none;
+    background-color: #001f3f;      
+    color: whitesmoke;              
+}
+.container {
+    height: 60vh;
+    width: 25vw;
+    background-color: #001f3f;;     
+    border-radius: 7px;
+}
+.temp {
+    font-size: 44px;
+    font-weight: 600;
+    margin-top: 20px;
+    color: #ffffff;                  
+}
+.sub-measure{
+    font-size: 14px;
+    font-weight: 600;
+    color: #d3d3d3;                 
+}
+.circle{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: #d3d3d3;      
+    position: absolute;
+    top: 26vh;
+    left: 55vw;
+    box-shadow: 0 0 15px 10px rgba(255, 255, 255, 0.5), 0 0 30px rgba(255, 255, 255, 0.5);  
+}
+
+.future {
+    height: 35%;
+    color: #f0e68c ;              
+    background-color: #2f413d;    
+} */
