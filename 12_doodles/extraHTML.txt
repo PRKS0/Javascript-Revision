@@ -1,0 +1,74 @@
+<!-- <div class="timeline-box">
+                <div class="year-box" id="year-box-1">1998</div>
+                <div class="mini-timeline-box">
+                    <header>The first Doodle</header>
+                    <div class="card-area">
+                        <div class="card">
+                            <div class="box1">
+                                <img src="https://www.gstatic.com/marketing-cms/75/21/0f8b171c4f9f81869c48f9938cfb/1.jpeg" alt="">
+                            </div>
+                            <div class="box2">
+                                <div class="date">August 30th, 1998</div>
+                                <div class="event">Burning Man Festival</div>
+                            </div>  
+                    </div>
+                    </div>
+                    <footer>The very first Doodle was published in 1998 as a quick way for Google founders Larry Page and Sergey Brin to let people know they would be out of office for Burning Man.
+
+                    </footer>
+                </div>
+            </div>
+            <div class="timeline-box">
+                <div class="year-box" id="year-box-2">2000</div>
+                <div class="mini-timeline-box">
+                    <h3></h3>
+                </div>
+            </div>
+            <div class="timeline-box">
+                <div class="year-box" id="year-box-3">2000</div>
+                <div class="mini-timeline-box">
+                    <h3></h3>
+                </div>
+            </div>
+            <div class="timeline-box">
+                <div class="year-box" id="year-box-4">2005</div>
+                <div class="mini-timeline-box">
+                    <h3></h3>
+                </div>
+            </div>
+            <div class="timeline-box">
+                <div class="year-box" id="year-box-5">2010</div>
+                <div class="mini-timeline-box">
+                    <h3></h3>
+                </div>
+            </div>
+            <div class="timeline-box">
+                <div class="year-box" id="year-box-6">2011</div>
+                <div class="mini-timeline-box">
+                    <h3></h3>
+                </div>
+            </div>
+            <div class="timeline-box">
+                <div class="year-box" id="year-box-7">2012</div>
+                <div class="mini-timeline-box">
+                    <h3></h3>
+                </div>
+            </div>
+            <div class="timeline-box">
+                <div class="year-box" id="year-box-8">2018</div>
+                <div class="mini-timeline-box">
+                    <h3></h3>
+                </div>
+            </div>
+            <div class="timeline-box">
+                <div class="year-box" id="year-box-9">2019</div>
+                <div class="mini-timeline-box">
+                    <h3></h3>
+                </div>
+            </div>
+            <div class="timeline-box">
+                <div class="year-box" id="year-box-10">2021</div>
+                <div class="mini-timeline-box">
+                    <h3></h3>
+                </div>
+            </div> -->
